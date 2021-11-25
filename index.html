@@ -1,146 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <title>Segurança Hack</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        :root {
-            font-family: 'Roboto', sans-serif;
-            --color-bg: #F3F5F7;
-            --color-main: #55efc4;
-            --color-font-button: #FFF;
-            --color-button: #00b894;
-        }
-
-        i.on {
-            color: #00b894
-        }
-
-        html {
-            height: 100%
-        }
-
-        body {
-            min-height: 100%;
-        }
-
-        html,
-        body {
-            margin: 0;
-            padding: 0
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            box-shadow: 0 1px 60px -2px rgba(0, 0, 0, .6);
-            background: var(--color-main);
-            position: sticky;
-            padding: .5em;
-            z-index: 9;
-            top: 0;
-        }
-
-        * {
-            box-sizing: border-box
-        }
-
-        main {
-            margin-top: 1em
-        }
-
-        main .videos .video {
-            display: flex;
-            height: 200px;
-            width: 100%;
-            overflow: hidden;
-            margin-bottom: 1em
-        }
-
-        main .videos .video .actions {
-            background: var(--color-main);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            flex-grow: 1;
-            padding: .5em
-        }
-
-        main .videos .video .actions i {
-            --size: 10vw;
-            background: var(--color-button);
-            color: var(--color-font-button);
-            width: var(--size);
-            height: var(--size);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            clip-path: circle();
-        }
-
-        main .videos .video img {
-            flex-grow: 10;
-            filter: grayscale(100%);
-            transition: .3s
-        }
-
-        main .videos .video img.light {
-            filter: grayscale(0%);
-        }
-    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mono Escriba</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/main.css'>
+    <script defer src='assets/main.js'></script>
 </head>
 
 <body>
-    <header>
-        <i class="material-icons">
-            menu
-        </i>
-        <div>
-            Segurança Hack
-        </div>
-        <div>
-            <i class="material-icons">
-                perm_phone_msg
-            </i>
-            <i class="material-icons">
-                notification_important
-            </i>
-            <i class="material-icons">
-                volume_up
-            </i>
-            <i class="material-icons all-light">
-                highlight
-            </i>
-        </div>
-    </header>
-
     <main>
-        <div class="videos">
-            <div class="video">
-                <div class="actions">
-                    <i class="material-icons">
-                        notification_important
-                    </i>
-                    <i class="material-icons">
-                        volume_up
-                    </i>
-                    <i class="material-icons light">
-                        highlight
-                    </i>
-                </div>
-                <img src='https://i.gifer.com/cHl.gif'>
+        <div class="info">
+            <div class="words-counter">
+                <span class="value">0</span>
+                palavras
+            </div>
+            <div class="time-counter">
+                <span class="value">0</span>
+                segundos
             </div>
         </div>
+        <p>
+            <!-- <span class="word">
+                <span class="letter correct">h</span>
+                <span class="letter correct">e</span>
+                <span class="letter correct">l</span>
+                <span class="letter correct">l</span>
+                <span class="letter wrong">o</span>
+            </span>
+            <span class="word">
+                <span class="letter">w</span>
+                <span class="letter">o</span>
+                <span class="letter">r</span>
+                <span class="letter">l</span>
+                <span class="letter">d</span>
+                <span class="letter">!</span>
+            </span> -->
+        </p>
     </main>
-
-    <script src="main.js"></script>
 </body>
 
 </html>
