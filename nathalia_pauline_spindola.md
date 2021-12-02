@@ -1,8 +1,0 @@
-
-
-
-
-hehe, invadi ksksksksk
-
-
-vdsawvABVW
